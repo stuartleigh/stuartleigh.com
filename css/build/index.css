@@ -1,0 +1,73 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  line-height: 1.5rem; }
+
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.Section {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .Section--top {
+    background: #3D9970;
+    color: #fff;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .Section--bottom {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .Section__Headers {
+    text-align: center; }
+    .Section__Headers h1, .Section__Headers h2 {
+      margin: 0; }
+    .Section__Headers h1 {
+      font-family: "Oswald", sans-serif;
+      font-size: 2.5rem;
+      line-height: 3.75rem;
+      text-transform: uppercase; }
+      .Section__Headers h1 .com {
+        font-family: "Merriweather", serif;
+        font-size: 1rem;
+        text-transform: none; }
+    .Section__Headers h2 {
+      font-weight: normal;
+      letter-spacing: 0.25rem; }
+
+.LinkList {
+  margin: 0;
+  padding: 0; }
+  .LinkList__Item {
+    list-style: none;
+    display: inline-block; }
+    .LinkList__Item a {
+      display: block; }
+
+.Icon {
+  width: 50px;
+  height: 50px; }

@@ -1,0 +1,77 @@
+$colour-white: #fff;
+$colour-green: #3D9970;
+
+body, html {
+	padding: 0;
+	margin: 0;
+	background: $colour-white;
+	font-family: "Merriweather", serif;
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.Section {
+	flex: 1;
+	display: flex;
+
+	&--top {
+		background: $colour-green;
+		color: $colour-white;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&--bottom {
+		justify-content: center;
+	}
+
+	&__Headers {
+		text-align: center;
+
+		h1, h2 {
+			margin: 0;
+		}
+
+		h1 {
+			font-family: "Oswald", sans-serif;
+			font-size: 2.5rem;
+			line-height: 3.75rem;
+			text-transform: uppercase;
+
+			.com {
+				font-family: "Merriweather", serif;
+				font-size: 1rem;
+				text-transform: none;
+			}
+		}
+
+		h2 {
+			font-weight: normal;
+			letter-spacing: 0.25rem;
+		}
+	}
+}
+
+.LinkList {
+	margin: 0;
+	padding: 0;
+
+	&__Item {
+		list-style: none;
+		display: inline-block;
+
+		a {
+			display: block;
+		}
+	}
+}
+
+.Icon {
+	width: 50px;
+	height: 50px;
+}
