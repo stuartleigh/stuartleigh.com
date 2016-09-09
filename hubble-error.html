@@ -2,6 +2,9 @@
   <head>
     <title>Hubble</title>
     <style>
+    html, body {
+      font-family: sans-serif;
+    }
     .error-img {
     position:absolute;
     height:100%;
@@ -9,7 +12,8 @@
     top:0;
     left:0;
     display:block;
-    background: url("https://hubble.imgix.net/images/site/404.jpg") cover no-repeat;
+    background: url("https://hubble.imgix.net/images/site/404.jpg");
+    background-size: cover;
 }
 
 .error-container {
@@ -30,7 +34,7 @@
   <body>
     <div class="error-img">
       <div class="error-container">
-        <p class="error-header">404</p>
+        <p class="error-header">Error</p>
         <p>
             Oops. Well this is a sticky situation...
         </p>
