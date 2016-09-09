@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+  <head>
+    <title>Hubble</title>
+    <style>
+    .error-img {
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    display:block;
+}
+
+.error-container {
+    margin-top: 60px;
+    height:50%;
+    text-align:center;
+    color:white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-size:20px;
+    font-weight:600;
+}
+
+.error-header {
+    font-size:75px;
+}
+    </style>
+  </head>
+  <body>
+    <div data-src="https://hubble.imgix.net/images/site/404.jpg" class="error-img">
+      <div class="error-container">
+        <p class="error-header">404</p>
+        <p>
+            Oops. Well this is a sticky situation...
+        </p>
+        <p>
+            Unfortunately our website is down. Get in touch via email <a href="mailto:help@hubblehq.com">help@hubblehq.com</a> or just hang tight, we'll be back online soon.
+        </p>
+        <br>
+        <button id="404-button" name="404-button" class="btn btn-primary btn-lg btn-cta" ui-sref="home">Go to home</button>
+      </div>
+    </div>
+  </body>
+</html>
